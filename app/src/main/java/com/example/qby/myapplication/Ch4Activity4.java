@@ -39,7 +39,7 @@ public class Ch4Activity4 extends AppCompatActivity {
                             }else{
                                 list.remove(compoundButton);
                             }
-                            String content="you select:"
+                            String content="you select:";
                             for(int t=0;t<list.size();t++) {
                                 CheckBox checkBox1=(CheckBox) list.get(t);
                                 String sel=checkBox1.getText().toString();
